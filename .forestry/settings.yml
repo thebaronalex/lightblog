@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blah
-- type: heading
-  label: Content
 - type: directory
   path: src/assets/content/blog
   label: Blog Posts
@@ -21,11 +17,13 @@ sections:
 - type: document
   path: src/assets/content/data/info.json
   label: Info Page
-- type: heading
-  label: Config
 - type: document
   path: src/assets/content/data/config.json
   label: Site Config
+- type: heading
+  label: Blah
+- type: heading
+  label: Config
 upload_dir: src/assets/content/images
 public_path: "/src/assets/content/images"
 front_matter_path: ''
